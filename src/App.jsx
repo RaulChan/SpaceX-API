@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Heading, Image } from '@chakra-ui/react';
 import { LaunchItem } from './components/LaunchItem';
-
-import dayjs from "dayjs";
-import "dayjs/locale/es";
 import * as API from './services/launches';
 import logo from './assets/logo_spacex.png';
 
