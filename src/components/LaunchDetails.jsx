@@ -21,7 +21,7 @@ export function LaunchDetails() {
             (
         <>
             <Flex>
-            <Text fontSize="2x1">
+            <Text fontSize="2x1" color="gray.900">
                 Mission <strong> {launch.name} </strong>
             </Text>
             <Spacer/>
@@ -31,7 +31,7 @@ export function LaunchDetails() {
             </Flex>
 
             <Box>
-                Rocket:  
+                <Text color="gray.900">Rocket:</Text>
                 <Link to={`/rockets/${launch.rocket}`}>
                 <Button mt={2} colorScheme="purple">{launch.rocket}</Button>
                 </Link>

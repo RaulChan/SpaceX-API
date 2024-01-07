@@ -9,7 +9,7 @@ export function LaunchItem(launch) {
     return (
       <Box  bg="gray.100" p={4} m={4} borderRadius="lg">
         <Flex>
-          <Text fontSize="2x1">
+          <Text fontSize="2x1" color="gray.900">
             Mission <strong> {launch.name} </strong>
           </Text>
           <Spacer/>
@@ -25,7 +25,7 @@ export function LaunchItem(launch) {
           </Text>
         </Flex>
         <Link to={`/launch/${launch.id}`}>
-        <Button mt={2} colorScheme="purple">More Details</Button>
+        <Button mt={2} colorScheme="blue">More Details</Button>
         </Link>
       </Box>
     )
