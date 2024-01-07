@@ -2,7 +2,7 @@
 
 Consumo de la API de SpaceX utilizando:
 
-- React \
-- Vite \
--Chakra ui
+- React
+- Vite
+- Chakra ui
 
